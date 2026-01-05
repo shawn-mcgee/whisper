@@ -649,8 +649,6 @@ export function *lex(s: string) {
   }
 }
 
-
-
 export namespace Number {
   export type I8  = { is: "i8" , value: Uint8Array }
   export type I16 = { is: "i16", value: Uint8Array }
